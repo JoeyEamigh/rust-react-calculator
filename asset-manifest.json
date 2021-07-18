@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rust-react-calculator/static/css/main.c5995f75.chunk.css",
-    "main.js": "/rust-react-calculator/static/js/main.52f96089.chunk.js",
-    "main.js.map": "/rust-react-calculator/static/js/main.52f96089.chunk.js.map",
+    "main.js": "/rust-react-calculator/static/js/main.dcacd1a0.chunk.js",
+    "main.js.map": "/rust-react-calculator/static/js/main.dcacd1a0.chunk.js.map",
     "runtime-main.js": "/rust-react-calculator/static/js/runtime-main.ce50ccd2.js",
     "runtime-main.js.map": "/rust-react-calculator/static/js/runtime-main.ce50ccd2.js.map",
     "static/js/2.01e2cd19.chunk.js": "/rust-react-calculator/static/js/2.01e2cd19.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.ce50ccd2.js",
     "static/js/2.01e2cd19.chunk.js",
     "static/css/main.c5995f75.chunk.css",
-    "static/js/main.52f96089.chunk.js"
+    "static/js/main.dcacd1a0.chunk.js"
   ]
 }
