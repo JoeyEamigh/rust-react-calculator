@@ -1,0 +1,25 @@
+@import "myTheme";
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: "Digital-7";
+  src: url("../fonts/Digital7.ttf");
+}
+
+@font-face {
+  font-family: "Digital-7";
+  src: url("../fonts/Digital7Italic.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Digital-7";
+  src: url("../fonts/Digital7Mono.ttf");
+  font-style: monospace;
+}
+
+@font-face {
+  font-family: "Digital-7";
+  src: url("../fonts/Digital7Mono.ttf");
+  font-style: monospace italic;
+}
