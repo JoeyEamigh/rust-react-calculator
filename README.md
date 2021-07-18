@@ -8,3 +8,14 @@ this is a calculator interfacing Rust with React through WASM
 - I'm sure there are cleaner ways to make a calculator in TS. I don't care - this was fun
 - I plan to add more to this later, like the triangle thing - but I may never update it again
 - I am not a programming advisor
+
+## Instructions
+
+```
+git clone https://github.com/JoeyEamigh/rust-react-calculator.git
+cd rust-react-calculator
+yarn
+make
+```
+
+(or `yarn start` instead of Make)
