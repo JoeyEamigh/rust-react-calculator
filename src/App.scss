@@ -3,7 +3,7 @@
 main.rusty-calc {
   @extend .my-4, .d-flex, .justify-content-center, .flex-wrap;
   h1 {
-    @extend .mx-2;
+    @extend .mx-2, .w-100, .mb-3;
     text-align: center;
     color: white;
   }

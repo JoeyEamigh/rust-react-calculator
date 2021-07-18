@@ -19,21 +19,32 @@ pub fn greet() {
 }
 
 #[wasm_bindgen]
-pub fn add(x: i32, y: i32) -> i32 {
+pub fn add(x: f64, y: f64) -> f64 {
   return x + y;
 }
 
 #[wasm_bindgen]
-pub fn sub(x: i32, y: i32) -> i32 {
+pub fn subtract(x: f64, y: f64) -> f64 {
   return x - y;
 }
 
 #[wasm_bindgen]
-pub fn mul(x: i32, y: i32) -> i32 {
+pub fn multiply(x: f64, y: f64) -> f64 {
   return x * y;
 }
 
 #[wasm_bindgen]
-pub fn div(x: i32, y: i32) -> i32 {
+pub fn divide(x: f64, y: f64) -> f64 {
   return x / y;
+}
+
+#[wasm_bindgen]
+pub fn percent_decimal(percent: f64) -> f64 {
+  return percent / 100.0;
+}
+
+// function to round to the nearest thousandth
+#[wasm_bindgen]
+pub fn round_for_calc(x: f64) -> f64 {
+  return (x * 10000000.0).round() / 10000000.0;
 }
