@@ -49,7 +49,8 @@
     "@wasm-tool/wasm-pack-plugin": "^1.4.0",
     "gh-pages": "^3.2.3",
     "prettier": "^2.3.2",
-    "react-app-rewired": "^2.1.8"
+    "react-app-rewired": "^2.1.8",
+    "wasm-pack": "^0.10.0"
   },
   "homepage": "https://joeyeamigh.github.io/rust-react-calculator"
 }

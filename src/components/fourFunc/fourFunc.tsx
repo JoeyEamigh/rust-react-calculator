@@ -45,7 +45,6 @@ export default function FourFunc({ rust }: { rust: typeof Rust }) {
 
   function equals() {
     if (buffer === 'NO / 0') return;
-    if (!buffer || !prenum) return;
 
     let ans: number;
     let buff = Number(buffer);
@@ -56,6 +55,8 @@ export default function FourFunc({ rust }: { rust: typeof Rust }) {
       setBuffer('NO / 0');
       return;
     }
+
+    if (!buffer || !prenum) return;
 
     if (!!answer && !!pre && !!postnum) {
       buff = postnum;
