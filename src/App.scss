@@ -7,4 +7,9 @@ main.rusty-calc {
     text-align: center;
     color: white;
   }
+
+  .dropdown {
+    @extend .w-100, .mb-3;
+    text-align: center;
+  }
 }

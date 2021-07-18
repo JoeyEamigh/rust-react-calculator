@@ -1,9 +1,9 @@
-import './calculator.scss';
+import './fourFunc.scss';
 import type * as Rust from '../../native/pkg';
 import { useState } from 'react';
 import { Operation } from '../../types/operations.enum';
 
-export default function Calculator({ rust }: { rust: typeof Rust }) {
+export default function FourFunc({ rust }: { rust: typeof Rust }) {
   const [answer, setAnswer] = useState<number>(0);
   const [operation, setOperation] = useState<Operation>(null);
   const [prenum, setPrenum] = useState<number>(null);

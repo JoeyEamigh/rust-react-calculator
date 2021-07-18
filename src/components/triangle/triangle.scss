@@ -1,0 +1,6 @@
+@import "../../assets/scss/variables";
+
+main.triangle {
+  @extend .d-flex;
+  color: white;
+}
